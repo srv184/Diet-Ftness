@@ -1,0 +1,108 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-image: url("Profile.jpg");
+    background-size: cover;
+}
+
+
+.outer{
+    
+    border: 2px solid white;
+    width: 280px;
+    height: 730px;
+    margin-top: 10px;
+    border-radius: 15px 50px 30px 5px;
+    margin-left: 10px;
+}
+.outer h1{
+    font-size: 46px;
+    color: #00cc90;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.outer span{
+    font-size: 50px;
+    color: white;
+}
+.outer a{
+    font-size: 22px;
+    margin-left: 14px;
+    color: white;
+    opacity: 1;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.outer a:hover{
+    color:rgb(228, 88, 23);
+    font-size: 30px;
+}
+
+
+.transbox{
+
+    border: 3px solid #00cc90;
+    width: 1200px;
+    height: 680px;
+    margin-left: 80px;
+    margin-top: 40px;
+    border-radius: 15px 100px;
+    margin-left: 20px;
+    
+}
+
+
+.profile h1{
+    font-size: 40px;
+    color: #00cc90;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.profile label{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-bottom: 2px;
+}
+.profile input{
+    font-size: 25px;
+    color: #00cc90;
+    align-items: center;
+    width:42%;
+    background-color: rgba(27, 26, 26, 0.4);
+    border-radius: 10px;
+    height: 40px;
+}
+
+.form-group1 input{
+    margin-left: 54px;
+}
+.form-group2 input{
+    margin-left: 124px;
+}
+.form-group3 input{
+    margin-left: 98px;
+}
+.form-group4 input{
+    margin-left: 20px;
+}
+.form-group5 input{
+    margin-left: 28px;
+}
+.form-group6 input{
+    margin-left: 79px;
+}
+
+
+.btn{
+    background-color: #00cc90;
+    padding: 10px 60px;
+    color: black;
+    border-radius: 10px;
+    border-color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Tapestry&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to left,whitesmoke);
+}
+/* =================================== button for reaching top of page ==========================================*/
+#topbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: grey;
+    bottom: 40px;
+    right: 40px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+}
+
+.banner{
+    height: 66vh;
+    background-image:
+    url("FAQ.jpg");
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 130px;
+}
+.banner h1{
+    margin-top: 400px;
+    margin-left:105px;
+    text-align: center;
+    color:black;
+    font-weight: bolder;
+    font-size: 70px;
+    font-family: 'Tapestry', cursive;
+}
+.banner p{
+    color: black;
+    font-size: large;
+    font-size: 20px;
+    text-align:center;
+    margin-top: 45px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.banner .text{
+    text-align:center;
+    padding-bottom: 100px;
+    font-weight: bold;
+}
+.btn{
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 60px;
+    background-color: #00cc90;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center; 
+    line-height: 60px;
+    z-index: 9;
+    margin-top: 50px;
+    transition: all ease 0.5s;
+}
+.btn:before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: white;
+    opacity: .9;
+    z-index: -1;
+    transition: all ease 0.5s;
+}
+.btn:hover{
+    color: blue;
+}
+.btn:hover:before{
+    top: 0;
+    height: 100%;
+}
+
+.container{
+    display:flex;
+    padding:0;
+}
+.sec2{
+    padding-top: 0;
+    padding-left: 370px;
+
+}
+.heading{
+    padding-top: 10px;
+    padding-left: 50px;
+    text-align: center;
+}
+.heading h1{
+    text-align:center;
+    padding-bottom: 20px;
+    font-size: 45px;
+    color:#00cc90;
+}
+.heading h3{
+    text-align:center;
+    padding-bottom: 20px;
+}
+.heading p{
+    text-align:center;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Barlow', sans-serif; 
+    font-weight: bolder; 
+}
+.heading span{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#00cc90;
+    font-size:22px ;
+    font-weight: bolder;
+}
+
+
+
+
+.card{
+    margin-left: 200px;
+    margin-right: 100px;
+    border-radius: 25px;
+}
+.accordion-flush{
+    border-radius: 25px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container1{
+    padding-top: 200px;
+    padding-bottom: 80px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+form{
+    background: rgb(241, 239, 239);
+    display: flex;
+    flex-direction: column;
+    padding: 4vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+form h2{
+    color: #00cc90;
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-family: 'Orelega One', cursive;
+    font-weight: bolder;
+    text-align: center;
+}
+form p{
+    font-size: 17px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: white;
+    font-size: 16px;
+    border-radius: 14px;
+}
+form button{
+    padding: 15px;
+    background: #00cc90;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+form button:hover{
+    background-color:#708d84;
+}
+form button:active{
+    background-color:#00cc90;
+    box-shadow: 0 6px grey;
+    transform: translateY(4px);
+}
+
+
+.footer{
+    padding-top: 300px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #00cc90;
+}
+.footer h1{
+    font-size: 20px;
+    color: white;
+}
+
+.social-icons{
+    padding: 50px 90px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 60px;
+    margin-left: 120px;
+    cursor: pointer;
+    align-items: center;
+}
+.social-icons .fa{
+    color:#00cc90;
+}

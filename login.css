@@ -1,0 +1,100 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-image: url('./images/register.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:100%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper {
+    width: 95%;
+    max-width: 400px;
+    background: transparent;
+    border: 3px solid #00cc90;
+    padding: 40px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.form-container span{
+    color:#00cc90;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-container h3 {
+    font-size: 33px;
+    font-weight: bold;
+    color: #00cc90;
+    font-family: 'Roboto', sans-serif;
+    margin: 5px 0 10px 0;
+    text-align: center;
+}
+
+.form-container .form input {
+    height: 40px;
+    background: none;
+    color: white;
+    border: 3px solid #00cc90;
+    border-radius: 15px;
+    width: 100%;
+    margin: 8px 0;
+    padding: 0 10px;
+    font-size: 15px;
+}
+::placeholder{
+    color:white;
+}
+
+.form-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-container form button {
+    background: none;
+    padding: 8px 16px;
+    border-color: #00cc90;
+    font-weight: 600;
+    border-radius: 15px;
+    color: white;
+    margin: 15px 0;
+}
+.form-container p {
+    color: white;
+    text-align: center;
+}
+
+
+.signup h3 {
+    font-size: 25px;
+}
